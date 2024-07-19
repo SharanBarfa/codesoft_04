@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+#main{
+    background: rgb(56, 56, 114);
+    height: inherit;
+
+}
+#main h1{
+    text-align: center;
+    color: rgb(66, 3, 3);
+    padding: 10px;
+}
+#main>h3{
+    text-align: center;
+    color: rgb(66, 3, 3);
+}
+#inline{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid rgb(22, 21, 21) ;
+    margin: 15px;
+    grid-gap: 20px;
+    box-shadow: 2px 2px 2px 2px black ;
+    
+
+    
+
+}
+.side{
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    justify-content: flex-start;
+
+
+}
+.img{
+    border: 10px solid rgb(66, 3, 3);
+    border-top: ;
+    border-bottom-width: 50px;
+}
+.caption{
+    margin-top: 50px;
+    padding: 5px;
+    width: 650px;
+    justify-content: flex-start;
+}
+.caption h3{
+      margin-bottom: 10px;
+      font-size: 18;
+      color: rgb(181, 194, 207);
+}
+.caption p{
+    padding: 2px;
+    color: rgb(181, 194, 207);
+    padding: 5px;
+    margin-bottom: 40px;
+
+}
+.caption .dp{
+
+    border: 5px solid rgb(66, 3, 3);
+    border-bottom-width: 20px;
+
+}
+.text{
+    margin-top: 5px;
+    margin-left: 110px;
+    padding-bottom: 5px;
+    justify-content: left;
+    text-align: start;
+    padding-bottom: 5px;
+    width: 85%;
+    border: 3px solid rgba(12, 12, 12,0.2);
+   
+
+
+}
+.text p{
+    color: rgb(175, 182, 182);
+    margin: 5px;
+    padding: 3px;
+}
+.text h2{
+    color: rgb(66, 3, 3);
+    margin: 5px;
+
+    text-decoration: underline;
+}
+.i2{
+    margin-top: 20px;
+    margin-left: 140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    padding: 40px;
+}
+.footer{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 20px;
+    padding-bottom: 10px;
+}
+.footer a{
+    text-decoration: none;
+    color: rgb(66, 3, 3);
+    font-weight: bold;
+}
+.footer p{
+    color:rgb(175, 182, 182);
+    font-size: larger;
+}
